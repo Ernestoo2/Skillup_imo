@@ -1,0 +1,81 @@
+:root {
+    --netflix-red: #e50914;
+    --netflix-black: #000000;
+    --netflix-dark-gray: #222222;
+}
+body {
+    font-size: 14px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* iPhone (Portrait and Landscape) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .realFAQ{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--netflix-dark-gray);
+        color: white;
+
+
+    }
+
+    /* Add your iPhone specific styles here */
+}
+
+/* Android Phones (Portrait and Landscape) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
+    .realFAQ{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--netflix-dark-gray);
+        color: white;
+
+
+    }
+
+
+    /* Add your Android phone specific styles here */
+}
+
+/* Tablets (Portrait and Landscape) */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .realFAQ{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--netflix-dark-gray);
+        color: white;
+
+
+    }
+
+
+    /* Add your tablet specific styles here */
+}
+
+/* Laptops and Desktops */
+@media only screen and (min-width: 1024px) {
+    .realFAQ{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--netflix-dark-gray);
+        color: white;
+
+
+    }
+
+
+    /* Add your laptop/desktop specific styles here */
+}
+
+/* Large Desktops */
+@media only screen and (min-width: 1824px) {
+    body {
+        font-size: 20px;
+    }
+
+    /* Add your large desktop specific styles here */
+}

@@ -1,0 +1,100 @@
+/* Base styles (Mobile first approach) */
+
+
+  /* iPhone (Portrait and Landscape) */
+  @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+      .Footer{
+        color:white;
+        text-decoration: underline;
+        background-color: black;
+        padding-left: 50px;
+      }
+      /* Add your iPhone specific styles here */
+  }
+
+  /* Android Phones (Portrait and Landscape) */
+  @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 812px) {
+
+      .Footer{
+        color:white;
+        text-decoration: underline;
+        background-color: black;
+        padding-left: 50px;
+        font-size: 20px;
+      }
+      .Ul{
+        display: grid;
+        font-size: 20px;
+        grid-template-columns: repeat(2, 1fr);
+
+        width: auto;
+      }
+      /* Add your tablet specific styles here */
+
+      /* Add your Android phone specific styles here */
+  }
+
+  /* Tablets (Portrait and Landscape) */
+  @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+      .Footer{
+        color:white;
+        text-decoration: underline;
+        background-color: black;
+        padding-left: 50px;
+        font-size: 20px;
+      }
+
+      .Ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        width: auto;
+      }
+      /* Add your tablet specific styles here */
+  }
+
+  /* Laptops and Desktops */
+  @media only screen
+    and (min-width: 1024px) {
+      .Ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        width: auto;
+      }
+      .Footer{
+        color:white;
+        text-decoration: underline;
+        background-color: black;
+        padding-left: 50px;
+        font-size: 20px;
+      }
+      /* Add your laptop/desktop specific styles here */
+  }
+
+  /* Large Desktops */
+  @media only screen
+    and (min-width: 1824px) {
+      .Ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        width: auto;
+      }
+      .Footer{
+        color:white;
+        text-decoration: underline;
+        background-color: black;
+        padding-left: 50px;
+        font-size: 20px;
+      }
+      /* Add your large desktop specific styles here */
+  }

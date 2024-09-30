@@ -3,20 +3,24 @@
     --netflix-black: #000000;
     --netflix-dark-gray: #222222;
 }
-
+body {
+    font-size: 14px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 /* iPhone (Portrait and Landscape) */
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
-    body {
-        font-size: 14px;
-    }
+
 
     .container-H {
         margin-top: 0px;
         padding-right: 20px;
         padding-left: 20px;
         padding-top: 15px;
-        background-image: url("/public/Assets/netbackground.png");
+        background-image: url("/src/Assets/netbackground.png");
         height: 220px;
+    }
+    .logo{
+        width: 100px;
     }
 
     .btn-1 {
@@ -32,17 +36,27 @@
 
     .header {
         display: flex;
-        width: 42vh;
+        width: 100%;
         align-items: center;
         justify-content: space-between;
-        
-    }
-    .p-wrap{
-        display: flex;
-        width: 50%;
-      
-        
 
+    }
+    .pwrap{
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+
+    }
+    .h5class{
+        margin-left: 40px;
+        width: 450px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #emailm{
+    margin-left:40px;
     }
     /* Add your iPhone specific styles here */
 }

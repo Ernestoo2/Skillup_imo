@@ -1,0 +1,57 @@
+/* Base styles (Mobile first approach) */
+body {
+    font-size: 16px;
+    /* Add other base styles here */
+  }
+
+  /* iPhone (Portrait and Landscape) */
+  @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      body {
+        font-size: 14px;
+      }
+      img{
+        border-radius: 25px;
+      }
+      /* Add your iPhone specific styles here */
+  }
+
+  /* Android Phones (Portrait and Landscape) */
+  @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 812px) {
+      body {
+        font-size: 14px;
+      }
+      /* Add your Android phone specific styles here */
+  }
+
+  /* Tablets (Portrait and Landscape) */
+  @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+      body {
+        font-size: 16px;
+      }
+      /* Add your tablet specific styles here */
+  }
+
+  /* Laptops and Desktops */
+  @media only screen
+    and (min-width: 1024px) {
+      body {
+        font-size: 18px;
+      }
+      /* Add your laptop/desktop specific styles here */
+  }
+
+  /* Large Desktops */
+  @media only screen
+    and (min-width: 1824px) {
+      body {
+        font-size: 20px;
+      }
+      /* Add your large desktop specific styles here */
+  }
