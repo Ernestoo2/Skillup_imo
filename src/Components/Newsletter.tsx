@@ -29,7 +29,7 @@ const Newsletter = () => {
 
   return (
     <div className="bg-black  pt-5">
-      <h5 className="h5clase sm:text-xl ml-[15%]  pl-[5%] text-white justify-center">
+      <h5 className="h5clase sm:text-xs md:text-sm ml-[15%]  pl-[5%] text-white justify-center">
           Ready to watch? Enter your email to create or
           restart your membership.
         </h5>

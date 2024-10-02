@@ -26,7 +26,7 @@ const Header = () => {
     }
   }
   return (
-    <div className="container-H max-w-auto">
+    <div className="container-H max-w-auto pb-8">
       <header className=" header flex ">
         <img
           className="logo"
@@ -50,7 +50,7 @@ const Header = () => {
           restart your membership.
         </h5>
       </div>
-      <div className="Form pl-[15%]  pb-6">
+      <div className="Form pl-[15%] mb-[50px] ">
         <form onSubmit={handleSubmit} className="flex max-w-md mx-auto mt-1">
           <input
             type="email"
