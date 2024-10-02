@@ -26,8 +26,8 @@ const Header = () => {
     }
   }
   return (
-    <div className="container-H">
-      <header className=" header">
+    <div className="container-H max-w-auto">
+      <header className=" header flex ">
         <img
           className="logo"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/200px-Netflix_2015_logo.svg.png"
@@ -35,22 +35,22 @@ const Header = () => {
         />
 
         <nav className="nav">
-          <button className="btn-1">Sign in</button>
+          <button className="btn-1 bg-[#e50914]">Sign in</button>
         </nav>
       </header>
       <div className="pwrap">
-        <em className="">
+        <em className=" md:text-[16px] lg:text-[20px]">
           Unlimited Movies, TV <br />
           Shows, and more.
         </em>
-        <p>starts at <span className="text">N</span>2,200. Cancel anytime </p>
+        <p>starts at <span className="text line-through">N</span>2,200. Cancel anytime </p>
 
-        <h5 className="h5class ">
+        <h5 className="h5class justify-center">
           Ready to watch? Enter your email to create or
           restart your membership.
         </h5>
       </div>
-      <div className="Form">
+      <div className="Form pl-[15%]  pb-6">
         <form onSubmit={handleSubmit} className="flex max-w-md mx-auto mt-1">
           <input
             type="email"

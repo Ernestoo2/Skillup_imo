@@ -51,19 +51,14 @@
 
       text-decoration: line-through;
     }
-    em{
-      font-size: 26px;
-    }
+
     .subButton{
       display: flex;
       align-items: center;
       justify-content: center;
 
     }
-    .form{
 
-      margin-left: 80px;
-    }
 
       /* Add your Android phone specific styles here */
   }
@@ -78,13 +73,8 @@
         justify-content: center;
 
       }
-      .emaili{
-        padding-left:150px;
 
-      }
-      em{
-        font-size: 24px;
-      }
+
       .h5clase{
         margin-left: 130px;
         width: fit-content;
@@ -111,6 +101,12 @@
         justify-content: center;
 
       }
+      .h5clase{
+        margin-left: 130px;
+        width: fit-content;
+        font-size: 14px;
+        font-weight: 600;
+    }
       /* Add your laptop/desktop specific styles here */
   }
 
@@ -123,5 +119,11 @@
         justify-content: center;
 
       }
+      .h5clase{
+        margin-left: 60%;
+        width: fit-content;
+        font-size: 14px;
+        font-weight: 600;
+    }
       /* Add your large desktop specific styles here */
   }

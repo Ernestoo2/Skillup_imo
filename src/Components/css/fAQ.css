@@ -73,8 +73,14 @@ body {
 
 /* Large Desktops */
 @media only screen and (min-width: 1824px) {
-    body {
-        font-size: 20px;
+    .realFAQ{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--netflix-dark-gray);
+        color: white;
+
+
     }
 
     /* Add your large desktop specific styles here */

@@ -10,7 +10,7 @@ import image7 from "../Assets/image8.jpg";
 
 const TrendingNow = () => {
   return (
-    <div className='flex w-auto gap-4 pt-0 bg-black rounded h-48 border-gray-300 overflow-x-auto p-4'>
+    <div className='flex w-auto overflow-x-auto   gap-4 pt-0 bg-black rounded h-48 border-gray-300  p-4'>
       <img className="rounded-[10px] w-[50%]" src={image} alt="1"/>
       <img className="rounded-[10px] w-[50%]"  src={image1} alt="1"/>
       <img className="rounded-[10px] w-[50%]"  src={image2} alt="1"/>

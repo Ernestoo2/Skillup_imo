@@ -3,9 +3,38 @@
     --netflix-black: #000000;
     --netflix-dark-gray: #222222;
 }
-body {
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container-H {
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    background-image: url("/src/Assets/netbackground.png");
+    height: 220px;
+}
+.pwrap{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+.btn-1 {
+    background-color: var(--netflix-red);
+    color: white;
+    padding: 10px 20px;
     font-size: 14px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
 /* iPhone (Portrait and Landscape) */
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -34,6 +63,121 @@ body {
         transition: background-color 0.2s;
     }
 
+
+    .h5class{
+        margin-left: 40px;
+        width: 450px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    /* Add your iPhone specific styles here */
+}
+
+/* Android Phones (Portrait and Landscape) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
+    .container-H {
+        margin-top: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 15px;
+        background-image: url("/src/Assets/netbackground.png");
+        height: 220px;
+    }
+    .btn-1 {
+        background-color: var(--netflix-red);
+        color: white;
+        padding: 10px 20px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    /* Add your Android phone specific styles here */
+}
+
+/* Tablets (Portrait and Landscape) */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .container-H {
+        margin-top: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 15px;
+        background-image: url("/src/Assets/netbackground.png");
+        height: 220px;
+    }
+    .btn-1 {
+        background-color: var(--netflix-red);
+        color: white;
+        padding: 10px 20px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    .h5class{
+        margin-left: 40px;
+        width: 450px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    /* Add your tablet specific styles here */
+}
+
+/* Laptops and Desktops */
+@media only screen and (min-width: 1024px) {
+    .container-H {
+        margin-top: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 15px;
+        background-image: url("/src/Assets/netbackground.png");
+        height: 220px;
+    }
+    .btn-1 {
+        background-color: var(--netflix-red);
+        color: white;
+        padding: 10px 20px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    .h5class{
+        margin-left: 40px;
+        width: 450px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    /* Add your laptop/desktop specific styles here */
+}
+
+/* Large Desktops */
+@media only screen and (min-width: 1824px) {
+    .container-H {
+        margin-top: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 15px;
+        background-image: url("/src/Assets/netbackground.png");
+        height: 220px;
+    }
+    .btn-1 {
+        background-color: var(--netflix-red);
+        color: white;
+        padding: 10px 20px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
     .header {
         display: flex;
         width: 100%;
@@ -49,50 +193,8 @@ body {
         color: white;
 
     }
-    .h5class{
-        margin-left: 40px;
-        width: 450px;
-        font-size: 12px;
-        font-weight: 600;
-    }
-    #emailm{
-    margin-left:40px;
-    }
-    /* Add your iPhone specific styles here */
-}
 
-/* Android Phones (Portrait and Landscape) */
-@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
-    body {
-        font-size: 14px;
-    }
 
-    /* Add your Android phone specific styles here */
-}
-
-/* Tablets (Portrait and Landscape) */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    body {
-        font-size: 16px;
-    }
-
-    /* Add your tablet specific styles here */
-}
-
-/* Laptops and Desktops */
-@media only screen and (min-width: 1024px) {
-    body {
-        font-size: 18px;
-    }
-
-    /* Add your laptop/desktop specific styles here */
-}
-
-/* Large Desktops */
-@media only screen and (min-width: 1824px) {
-    body {
-        font-size: 20px;
-    }
 
     /* Add your large desktop specific styles here */
 }

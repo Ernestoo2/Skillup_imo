@@ -9,7 +9,7 @@ import TrendingNow from "./Components/TrendingNow.tsx";
 
 function App () {
   return (
-    <div className="App ">
+    <div className="App  w-full max-w-xl mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5x  ">
       <Header />
       <TrendingNow />
       <MoreReasons/>

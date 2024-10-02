@@ -3,8 +3,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="Footer pt-7">
-      <ul className="Ul">
+    <div className="Footer bg-black pl-14 pt-7">
+      <ul className="Ul text-white underline">
       <li>FAQ</li>
       <li>Help Center</li>
       <li>Account</li>

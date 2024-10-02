@@ -10,6 +10,7 @@ const Newsletter = () => {
     return re.test(String(email).toLowerCase())
   }
 
+
   const handleChange = (e) => {
     const inputEmail = e.target.value
     setEmail(inputEmail)
@@ -28,25 +29,19 @@ const Newsletter = () => {
 
   return (
     <div className="bg-black  pt-5">
-      <h5 className="h5clase text-white">
-        Ready to watch? Enter your email to create or
-        restart your membership.
-      </h5>
-      <div className="">
-        <label
-          htmlFor="email"
-          className="emaili block pl-3  text-gray-200 text-sm font-bold mt-1"
-        >
-          Email Address
-        </label>
+      <h5 className="h5clase sm:text-xl ml-[15%]  pl-[5%] text-white justify-center">
+          Ready to watch? Enter your email to create or
+          restart your membership.
+        </h5>
 
-        <form onSubmit={handleSubmit} className="form flex max-w-md mx-10 mt-1">
+      <div className="Form pl-[15%]  pb-6">
+        <form onSubmit={handleSubmit} className="flex max-w-md mx-auto mt-1">
           <input
             type="email"
-            id="email"
+            id="emailm"
             value={email}
             onChange={handleChange}
-            className={`shadow appearance-none border rounded w-[200px] py-2  text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
+            className={`shadow appearance-none border rounded w-[200px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
               !isValid ? 'border-red-500' : ''
             }`}
             placeholder="you@example.com"
